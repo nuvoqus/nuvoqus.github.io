@@ -22,17 +22,17 @@ import {
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — NUVOQUS Data & AI Consultancy" },
+      { title: "Services | NUVOQUS Data & AI Consultancy" },
       {
         name: "description",
         content:
           "Full-spectrum Data & AI services with a specialized product and growth analytics practice for SaaS and FinTech & Digital Banking.",
       },
-      { property: "og:title", content: "Services — NUVOQUS" },
+      { property: "og:title", content: "Services | NUVOQUS" },
       {
         property: "og:description",
         content:
-          "Strategy, governance, data platform, ML, GenAI, MLOps — plus deep product and growth analytics for SaaS and FinTech.",
+          "Strategy, governance, data platform, ML, GenAI, and MLOps, plus deep product and growth analytics for SaaS and FinTech.",
       },
     ],
   }),
@@ -146,15 +146,15 @@ const productGrowthFintech = [
 const formats = [
   {
     t: "Advisory sprint",
-    d: "2–4 weeks. Diagnose a specific problem, deliver a clear recommendation.",
+    d: "2 to 4 weeks. Diagnose a specific problem and deliver a clear recommendation.",
   },
   {
     t: "Strategy & roadmap",
-    d: "6–8 weeks. Full assessment, prioritized roadmap, and execution plan.",
+    d: "6 to 8 weeks. Full assessment, prioritized roadmap, and execution plan.",
   },
   {
     t: "Hands-on build",
-    d: "8–16 weeks. Embedded delivery of a flagship use case with your team.",
+    d: "8 to 16 weeks. Embedded delivery of a flagship use case with your team.",
   },
   {
     t: "Fractional Head of Data/AI",
@@ -172,9 +172,9 @@ function ServicesPage() {
             Full-spectrum Data &amp; AI. Specialized where it matters most.
           </h1>
           <p className="mt-6 max-w-2xl text-muted-foreground md:text-lg">
-            NUVOQUS covers the entire Data &amp; AI value chain — strategy, governance, platform,
-            ML, GenAI, MLOps, and enablement — with a deep specialization in product and growth
-            analytics for SaaS and FinTech &amp; Digital Banking.
+            NUVOQUS covers the entire Data &amp; AI value chain, including strategy, governance,
+            platform, ML, GenAI, MLOps, and enablement. Our deepest specialization is product and
+            growth analytics for SaaS and FinTech &amp; Digital Banking.
           </p>
         </div>
       </section>
@@ -224,7 +224,7 @@ function ServicesPage() {
             <div className="rounded-2xl border border-border/60 bg-background/60 p-8">
               <div className="flex items-center gap-3">
                 <LineChart className="h-6 w-6 text-primary" />
-                <h3 className="text-xl font-semibold">SaaS — product &amp; growth analytics</h3>
+                <h3 className="text-xl font-semibold">SaaS product &amp; growth analytics</h3>
               </div>
               <ul className="mt-4 space-y-2">
                 {productGrowthSaas.map((b) => (
@@ -239,7 +239,7 @@ function ServicesPage() {
               <div className="flex items-center gap-3">
                 <Banknote className="h-6 w-6 text-primary" />
                 <h3 className="text-xl font-semibold">
-                  FinTech &amp; Digital Banking — product &amp; growth analytics
+                  FinTech &amp; Digital Banking product &amp; growth analytics
                 </h3>
               </div>
               <ul className="mt-4 space-y-2">
@@ -290,7 +290,7 @@ function ServicesPage() {
             <AccordionTrigger>What about bias and model risk?</AccordionTrigger>
             <AccordionContent className="text-muted-foreground">
               We define evaluation datasets, fairness metrics, and review gates proportionate to the
-              decision the model influences — aligned to model-risk frameworks like SR 11-7 and EBA
+              decision the model influences, aligned to model-risk frameworks like SR 11-7 and EBA
               guidelines for FinTech.
             </AccordionContent>
           </AccordionItem>

@@ -16,13 +16,13 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "NUVOQUS — Data & AI Consultancy for SaaS and FinTech" },
+      { title: "NUVOQUS | Data & AI Consultancy for SaaS and FinTech" },
       {
         name: "description",
         content:
           "End-to-end Data & AI consultancy. Specialized in product and growth analytics for SaaS and FinTech & Digital Banking.",
       },
-      { property: "og:title", content: "NUVOQUS — Data & AI Consultancy" },
+      { property: "og:title", content: "NUVOQUS | Data & AI Consultancy" },
       {
         property: "og:description",
         content:
@@ -67,7 +67,7 @@ const pillars = [
   {
     icon: ShieldCheck,
     title: "AI Governance & Risk",
-    desc: "EU AI Act, GDPR, model risk management, fairness, and explainability — designed in from day one.",
+    desc: "EU AI Act, GDPR, model risk management, fairness, and explainability, designed in from day one.",
   },
   {
     icon: Database,
@@ -82,7 +82,7 @@ const pillars = [
   {
     icon: Sparkles,
     title: "Machine Learning & GenAI",
-    desc: "Predictive models, recommender systems, LLM apps, RAG, and agentic workflows — productionized end-to-end.",
+    desc: "Predictive models, recommender systems, LLM apps, RAG, and agentic workflows, built for production from end to end.",
   },
   {
     icon: Settings2,
@@ -144,8 +144,8 @@ function Index() {
             for SaaS and FinTech.
           </h1>
           <p className="mt-6 max-w-2xl text-base text-muted-foreground md:text-lg">
-            From strategy and governance to data platforms, machine learning, GenAI, and adoption —
-            delivered as a single, integrated practice.
+            NUVOQUS brings strategy, governance, data platforms, machine learning, GenAI, and
+            adoption into one integrated practice.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Button
@@ -209,12 +209,12 @@ function Index() {
                 <LineChart className="h-6 w-6 text-primary" />
                 <h3 className="text-xl font-semibold">SaaS</h3>
               </div>
-              <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                <li>• Event taxonomy, tracking plans, and warehouse-native CDP</li>
-                <li>• Activation, onboarding funnels, and PQL/PQA scoring</li>
-                <li>• Retention cohorts, churn prediction, and expansion signals</li>
-                <li>• Pricing, packaging, and monetization analytics</li>
-                <li>• Experimentation platforms and causal measurement</li>
+              <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-muted-foreground">
+                <li>Event taxonomy, tracking plans, and warehouse-native CDP</li>
+                <li>Activation, onboarding funnels, and PQL/PQA scoring</li>
+                <li>Retention cohorts, churn prediction, and expansion signals</li>
+                <li>Pricing, packaging, and monetization analytics</li>
+                <li>Experimentation platforms and causal measurement</li>
               </ul>
             </div>
             <div className="rounded-2xl border border-border/60 bg-background/60 p-8">
@@ -222,12 +222,12 @@ function Index() {
                 <Banknote className="h-6 w-6 text-primary" />
                 <h3 className="text-xl font-semibold">FinTech &amp; Digital Banking</h3>
               </div>
-              <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                <li>• Onboarding, KYC drop-off, and conversion analytics</li>
-                <li>• Customer segmentation, LTV, and CAC payback modeling</li>
-                <li>• Engagement, primary-account, and deposit-growth analytics</li>
-                <li>• Credit, fraud, and AML model design with audit trail</li>
-                <li>• Regulatory-ready reporting, lineage, and model documentation</li>
+              <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-muted-foreground">
+                <li>Onboarding, KYC drop-off, and conversion analytics</li>
+                <li>Customer segmentation, LTV, and CAC payback modeling</li>
+                <li>Engagement, primary-account, and deposit-growth analytics</li>
+                <li>Credit, fraud, and AML model design with audit trail</li>
+                <li>Regulatory-ready reporting, lineage, and model documentation</li>
               </ul>
             </div>
           </div>

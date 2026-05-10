@@ -66,14 +66,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "NUVOQUS - Data & AI Consultancy" },
+      { title: "NUVOQUS | Data & AI Consultancy" },
       {
         name: "description",
         content:
           "End-to-end Data & AI consultancy. Specialized in product and growth analytics for SaaS and FinTech and Digital Banking.",
       },
       { name: "author", content: "NUVOQUS" },
-      { property: "og:title", content: "NUVOQUS - Data & AI Consultancy" },
+      { property: "og:title", content: "NUVOQUS | Data & AI Consultancy" },
       {
         property: "og:description",
         content: "End-to-end Data & AI consultancy for SaaS and FinTech and Digital Banking.",

@@ -15,11 +15,11 @@ export function SiteFooter() {
           </p>
         </div>
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
-          <Link to="/services" className="hover:text-foreground">
-            Services
-          </Link>
           <Link to="/about" className="hover:text-foreground">
             About
+          </Link>
+          <Link to="/services" className="hover:text-foreground">
+            Services
           </Link>
           <Link to="/contact" className="hover:text-foreground">
             Contact
@@ -31,7 +31,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-border/60">
         <div className="mx-auto max-w-6xl px-6 py-4 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} NUVOQUS. All rights reserved.
+          &copy; {new Date().getFullYear()} NUVOQUS. All rights reserved.
         </div>
       </div>
     </footer>

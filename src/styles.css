@@ -63,7 +63,7 @@
 
 :root {
   --radius: 0.625rem;
-  /* NUVOQUS — dark, modern tech theme. Deep navy + electric cyan accent. */
+  /* NUVOQUS dark, modern tech theme. Deep navy with an electric cyan accent. */
   --background: oklch(0.16 0.025 260);
   --foreground: oklch(0.97 0.005 250);
   --card: oklch(0.2 0.028 260);

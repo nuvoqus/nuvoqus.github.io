@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — NUVOQUS" },
+      { title: "Contact | NUVOQUS" },
       {
         name: "description",
         content: "Get in touch with NUVOQUS. Typical reply within one business day.",
       },
-      { property: "og:title", content: "Contact — NUVOQUS" },
+      { property: "og:title", content: "Contact | NUVOQUS" },
       { property: "og:description", content: "Email NUVOQUS to start a Data & AI conversation." },
     ],
   }),

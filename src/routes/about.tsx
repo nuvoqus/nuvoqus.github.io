@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — NUVOQUS" },
+      { title: "About | NUVOQUS" },
       {
         name: "description",
         content:
           "NUVOQUS is a Data & AI consultancy specialized in product and growth analytics for SaaS and FinTech & Digital Banking.",
       },
-      { property: "og:title", content: "About — NUVOQUS" },
+      { property: "og:title", content: "About | NUVOQUS" },
       {
         property: "og:description",
         content: "Pragmatic, ROI-led, governance-first Data & AI consulting.",
@@ -31,7 +31,7 @@ const principles = [
   },
   {
     t: "Governance-first",
-    d: "Compliance, ethics, and risk are designed in from day one — not bolted on after launch.",
+    d: "Compliance, ethics, and risk are designed in from day one, not bolted on after launch.",
   },
 ];
 
@@ -45,9 +45,9 @@ function AboutPage() {
             Senior Data &amp; AI counsel, focused on outcomes.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground">
-            NUVOQUS is a Data &amp; AI consultancy. We cover the full stack — strategy, governance,
-            platform, ML, GenAI, and MLOps — and go deepest where it moves the needle most: product
-            and growth analytics for SaaS and FinTech &amp; Digital Banking.
+            NUVOQUS is a Data &amp; AI consultancy covering strategy, governance, platform, ML,
+            GenAI, and MLOps. We go deepest where it moves the needle most: product and growth
+            analytics for SaaS and FinTech &amp; Digital Banking.
           </p>
         </div>
       </section>
@@ -60,7 +60,7 @@ function AboutPage() {
           <p className="mt-4 text-muted-foreground">
             These industries share something rare: customers who care about data quality, regulators
             who care about model behavior, and product teams who can move quickly. That's where Data
-            &amp; AI investment compounds — and where shallow advice fails fastest.
+            &amp; AI investment compounds, and where shallow advice fails fastest.
           </p>
           <p className="mt-4 text-muted-foreground">
             For SaaS, that means activation, retention, monetization, and AI features your customers
