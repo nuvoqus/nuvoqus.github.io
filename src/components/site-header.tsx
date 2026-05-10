@@ -14,7 +14,7 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/70 backdrop-blur-xl">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+      <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-2">
           <span className="inline-block h-2.5 w-2.5 rounded-full bg-primary shadow-[0_0_12px_var(--primary)]" />
           <span className="text-base font-semibold tracking-[0.18em] text-foreground">NUVOQUS</span>
@@ -51,7 +51,7 @@ export function SiteHeader() {
       </div>
       {open && (
         <div className="border-t border-border/60 md:hidden">
-          <div className="mx-auto flex max-w-6xl flex-col gap-1 px-6 py-4">
+          <div className="mx-auto flex w-full max-w-6xl flex-col gap-1 px-6 py-4">
             {nav.map((item) => (
               <Link
                 key={item.to}
