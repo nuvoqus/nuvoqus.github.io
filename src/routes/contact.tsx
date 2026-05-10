@@ -47,7 +47,7 @@ function ContactPage() {
             </a>
           </Button>
           <Button asChild size="lg" variant="outline" className="border-border bg-transparent">
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/company/nuvoqus/" target="_blank" rel="noreferrer">
               <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
             </a>
           </Button>
