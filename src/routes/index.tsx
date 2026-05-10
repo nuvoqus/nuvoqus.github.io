@@ -39,7 +39,7 @@ export const Route = createFileRoute("/")({
           description:
             "End-to-end Data & AI consultancy with deep specialization in product and growth analytics for SaaS and FinTech & Digital Banking.",
           email: "info@nuvoqus.com",
-          areaServed: "Worldwide",
+          areaServed: ["EMEA", "North America"],
           serviceType: [
             "Data & AI Strategy",
             "AI Governance",

@@ -25,17 +25,17 @@ function ContactPage() {
         style={{ background: "var(--gradient-hero)" }}
         aria-hidden
       />
-      <div className="relative mx-auto flex min-h-[70vh] max-w-3xl flex-col items-center justify-center px-6 py-24 text-center">
+      <div className="relative mx-auto flex max-w-4xl flex-col items-center px-6 py-16 text-center md:py-20">
         <p className="text-xs uppercase tracking-[0.2em] text-primary">Contact</p>
         <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-6xl">
           Let's build something useful.
         </h1>
-        <p className="mt-6 max-w-xl text-muted-foreground md:text-lg">
+        <p className="mt-5 max-w-xl text-muted-foreground md:text-lg">
           Tell me about your product, your data, and where you'd like AI to help. Typical reply
           within one business day.
         </p>
 
-        <div className="mt-10 flex flex-wrap justify-center gap-3">
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Button
             asChild
             size="lg"
@@ -53,9 +53,9 @@ function ContactPage() {
           </Button>
         </div>
 
-        <div className="mt-16 grid w-full gap-4 text-left md:grid-cols-3">
+        <div className="mt-10 grid w-full gap-4 text-left md:grid-cols-3">
           {[
-            { t: "Where", d: "Remote-first, working with teams across Europe and North America." },
+            { t: "Where", d: "Remote-first, serving teams across EMEA and North America." },
             { t: "When", d: "Booking engagements approximately 4 weeks out." },
             {
               t: "What to send",
